@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Netflix</div>
+        <!-- You can add more header elements as needed -->
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <!-- Add a call-to-action button if needed -->
+        </div>
+    </section>
+
+    <section class="featured">
+        <!-- Featured content goes here -->
+        <div class="featured-item">
+            <img src="placeholder-image.jpg" alt="Movie Title">
+            <h2>Movie Title</h2>
+        </div>
+        <!-- Add more featured items as needed -->
+    </section>
+
+    <!-- Add more sections as needed (e.g., categories, trending, etc.) -->
+
+    <footer>
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #fff;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e50914;
+}
+
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.featured {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.featured-item {
+    max-width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.featured-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000;
+    color: #8c8c8c;
+    text-align: center;
+    padding: 10px;
+}
